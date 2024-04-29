@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CosmeticsOnlineStore_Core.Models.Entity_Configration
 {
-    public class ContentManagementProduct
+    public class ContentManagementProductss
     {
         public int Id { get; set; }
 

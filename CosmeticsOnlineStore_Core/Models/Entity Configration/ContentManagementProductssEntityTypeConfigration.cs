@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace CosmeticsOnlineStore_Core.Models.Entity_Configration
 {
-    public class ContentManagementProductEntityTypeConfigration : IEntityTypeConfiguration<ContentManagementProduct>
+    public class ContentManagementProductssEntityTypeConfigration : IEntityTypeConfiguration<ContentManagementProductss>
     {
-        public void Configure(EntityTypeBuilder<ContentManagementProduct> builder)
+        public void Configure(EntityTypeBuilder<ContentManagementProductss> builder)
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();

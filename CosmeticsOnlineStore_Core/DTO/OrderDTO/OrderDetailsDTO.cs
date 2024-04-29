@@ -1,15 +1,13 @@
-﻿using CosmeticsOnlineStore_Core.Shaered;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CosmeticsOnlineStore_Core.Models.Entity
+namespace CosmeticsOnlineStore_Core.DTO.OrderDTO
 {
-    public class Orders: ParentEntity
+    public class OrderDetailsDTO
     {
-        public int Id { get; set; }
         public int OrderId { get; set; }
         public float TaxAmount { get; set; }
         public float DiscountAmount { get; set; }
@@ -17,8 +15,5 @@ namespace CosmeticsOnlineStore_Core.Models.Entity
         public float PromoCode { get; set; }
         public int CustomerID { get; set; }
         public double TotalAmount { get; set; }
-        public virtual Users Users { get; set; }
-        public virtual List<Products> Products { get; set; }
-
     }
 }

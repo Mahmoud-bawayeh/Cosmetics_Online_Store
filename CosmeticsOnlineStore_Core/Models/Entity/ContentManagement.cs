@@ -16,8 +16,8 @@ namespace CosmeticsOnlineStore_Core.Models.Entity
         public DateTime LastModifiedDate { get; set; }
         public string CreatedBy { get; set; }
         public bool IsActive { get; set; }
-        public virtual List<Products> Products { get; set; }
-        public virtual List<ContentManagementProduct> ContentManagementProducts { get; set; }
+        //public virtual List<Products> Products { get; set; }
+        public virtual List<ContentManagementProductss> ContentManagementProducts { get; set; }
 
     }
 }
